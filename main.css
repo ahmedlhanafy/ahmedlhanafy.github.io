@@ -2,11 +2,11 @@
 /*background: url("img/background.png") #ccc;*/
 /*}*/
 html {
+    background: url(img/background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background: url(img/background.png) no-repeat fixed center;
 }
 
 #title-wrapper {
@@ -44,4 +44,10 @@ a {
     /*top: 497px;*/
     /*bottom: 0;*/
     /*right: 0;*/
+}
+@media (max-width: 666px) {
+    #title-wrapper {
+        margin-top: 220px;
+    }
+
 }
