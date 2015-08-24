@@ -13,13 +13,20 @@ html {
     text-align: center;
     color: white;
     margin-top: 350px;
-    /*position: relative;*/
-    /*top: 50%;*/
-    /*transform: translateY(50%);*/
-    /*-webkit-transform: translateY(-50%);*/
-    /*-ms-transform: translateY(-50%);*/
 }
 #title-wrapper h1{
     font-size: 5em;
+    font-family: 'Work Sans', sans-serif;
 
+}
+.fa{
+    color: white;
+    font-size: 5em;
+    margin-right: 8px;
+}
+.icons{
+    text-align: center;
+
+}
+a{text-decoration: none;
 }
