@@ -1,0 +1,25 @@
+/*#div-background{*/
+/*background: url("img/background.png") #ccc;*/
+/*}*/
+html {
+    background: url(img/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#title-wrapper {
+    text-align: center;
+    color: white;
+    margin-top: 350px;
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*transform: translateY(50%);*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*-ms-transform: translateY(-50%);*/
+}
+#title-wrapper h1{
+    font-size: 5em;
+
+}
